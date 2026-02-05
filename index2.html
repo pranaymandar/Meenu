@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Meena ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card {
+    background: rgba(255,255,255,0.15);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 520px;
+    color: white;
+}
+
+.question {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.btn {
+    border: none;
+    border-radius: 50px;
+    padding: 14px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ff4e6a;
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 107, 129, 0.5);
+}
+
+.btn:hover {
+    transform: scale(1.08);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card" id="content">
+    <div class="question">Hey Meena, don’t overthink… just click next ❤️</div>
+    <p>I made something small for you. Takes 30 seconds. No pressure. Maybe pressure. Okay a little pressure.</p>
+    <div class="button-container">
+        <button class="btn" onclick="nextPage()">Next</button>
+    </div>
+</div>
+
+<script>
+let step = 0;
+
+function nextPage() {
+    const content = document.getElementById("content");
+
+    if (step === 0) {
+        content.innerHTML = `
+            <div class="question">When did I realize you were my favourite human?</div>
+            <div class="button-container">
+                <button class="btn" onclick="nextPage()">When you laughed at your own joke</button>
+                <button class="btn" onclick="nextPage()">When you pretend to be mad but can’t stop smiling</button>
+                <button class="btn" onclick="nextPage()">When you care about everyone more than yourself</button>
+                <button class="btn" onclick="nextPage()">All of the above</button>
+            </div>
+        `;
+    }
+    else if (step === 1) {
+        content.innerHTML = `
+            <div class="question">Life is busy, messy, and slightly chaotic.</div>
+            <p>But you make it lighter. You’re my calm place, my safe space, and my daily happiness dose.</p>
+            <p>So I have one important question…</p>
+            <div class="button-container">
+                <button class="btn" onclick="nextPage()">Next</button>
+            </div>
+        `;
+    }
+    else if (step === 2) {
+        content.innerHTML = `
+            <div class="question">Will you be my Valentine? 💘</div>
+            <div class="button-container">
+                <button class="btn" onclick="finalMessage()">YES OBVIOUSLY 💖</button>
+                <button class="btn" onclick="finalMessage()">YES BUT YOU OWE ME CHOCOLATE 🍫</button>
+                <button class="btn" onclick="finalMessage()">YES BUT I’M SCREENSHOTTING THIS 😌</button>
+            </div>
+        `;
+    }
+
+    step++;
+}
+
+function finalMessage() {
+    document.getElementById("content").innerHTML = `
+        <div class="question">Best decision of your life 😌❤️</div>
+        <p>Screenshot this. Valentine date loading… 🌹✨</p><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Meena ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card {
+    background: rgba(255,255,255,0.15);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 520px;
+    color: white;
+}
+
+.question {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.btn {
+    border: none;
+    border-radius: 50px;
+    padding: 14px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ff4e6a;
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 107, 129, 0.5);
+}
+
+.btn:hover {
+    transform: scale(1.08);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card" id="content">
+    <div class="question">Hey Meena, don’t overthink… just click next ❤️</div>
+    <p>I made something small for you. Takes 30 seconds. No pressure. Maybe pressure. Okay a little pressure.</p>
+    <div class="button-container">
+        <button class="btn" onclick="nextPage()">Next</button>
+    </div>
+</div>
+
+<script>
+let step = 0;
+
+function nextPage() {
+    const content = document.getElementById("content");
+
+    if (step === 0) {
+        content.innerHTML = `
+            <div class="question">When did I realize you were my favourite human?</div>
+            <div class="button-container">
+                <button class="btn" onclick="nextPage()">When you laughed at your own joke</button>
+                <button class="btn" onclick="nextPage()">When you pretend to be mad but can’t stop smiling</button>
+                <button class="btn" onclick="nextPage()">When you care about everyone more than yourself</button>
+                <button class="btn" onclick="nextPage()">All of the above</button>
+            </div>
+        `;
+    }
+    else if (step === 1) {
+        content.innerHTML = `
+            <div class="question">Life is busy, messy, and slightly chaotic.</div>
+            <p>But you make it lighter. You’re my calm place, my safe space, and my daily happiness dose.</p>
+            <p>So I have one important question…</p>
+            <div class="button-container">
+                <button class="btn" onclick="nextPage()">Next</button>
+            </div>
+        `;
+    }
+    else if (step === 2) {
+        content.innerHTML = `
+            <div class="question">Will you be my Valentine? 💘</div>
+            <div class="button-container">
+                <button class="btn" onclick="finalMessage()">YES OBVIOUSLY 💖</button>
+                <button class="btn" onclick="finalMessage()">YES BUT YOU OWE ME CHOCOLATE 🍫</button>
+                <button class="btn" onclick="finalMessage()">YES BUT I’M SCREENSHOTTING THIS 😌</button>
+            </div>
+        `;
+    }
+
+    step++;
+}
+
+function finalMessage() {
+    document.getElementById("content").innerHTML = `
+        <div class="question">Best decision of your life 😌❤️</div>
+        <p>Screenshot this. Valentine date loading… 🌹✨</p>
+    `;
+}
+</script>
+
+</body>
+</html>
+
+    `;
+}
+</script>
+
+</body>
+</html>
